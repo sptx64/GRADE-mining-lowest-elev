@@ -1,4 +1,4 @@
-# GRADE-mining-lowest-elev
+# GRADE mining - lowest elev
 A simple notebook to batch process multiple Surpac .str DEM to compute the lowest escavated points of your site from all your .str.
 
 Le suivi topographique est important dans le contexte minier pour différencier les zones remblayées du terrain naturel. Pour générer une topographie défruitée, c'est à dire une topographie montrant le point le plus bas historiquement atteint, des manipulations chronophages topographie par topographie sont nécessaires. Il existe des solutions directement dans les logiciels Surpac, Leapfrog et QGIS pour calculer la topographie la plus basse par paire de topographie, mais pas à la volée.
