@@ -6,9 +6,13 @@ Le suivi topographique est important dans le contexte minier pour différencier 
 Ce notebook permet de compiler une topo defruitée à partir de x fichiers .str et d'un contour .gpkg. Il s'agit d'une application open source qui s'adapte au format des fichiers .str (text, non binaire) de Surpac. Mettre toutes les topos .str dans le dossier "input" et le contour au format bd_topo_def.gpkg dans le dossier "input boundary". Limites rencontrées : sur certaines grandes zones avec une résolution de 1m, le fichier peut générer de +100 000 000 points de controle ce qui peut éventuellement créer un crash du noyau. Limitez la zone d'intérêt et donc le nombre de point grâce au fichier boundary.
 
 Vous devrez avoir au préalable installé les librairies jupyter, pandas, numpy et scipy avec les commandes :
+
 pip install numpy
+
 pip install pandas
+
 pip install jupyter
+
 pip install scipy
 
 Puis lancer la commande "jupyter notebook" et ouvrir le notebook .ipynb
