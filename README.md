@@ -7,15 +7,17 @@ Ce notebook permet de compiler une topo defruitée à partir de x fichiers .str 
 
 Vous devrez avoir au préalable installé les librairies jupyter, pandas, numpy et scipy avec les commandes :
 
-pip install numpy
+- pip install numpy
 
-pip install pandas
+- pip install pandas
 
-pip install jupyter
+- pip install jupyter
 
-pip install scipy
+- pip install scipy
 
 Puis lancer la commande "jupyter notebook" et ouvrir le notebook .ipynb
 Attention à l'arborescence et au nom du fichier boundary.
+
+Script 100% python.
 
 Mise à jour : le script prend maintenant les format .shp ainsi que .str.
