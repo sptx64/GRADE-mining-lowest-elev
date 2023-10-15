@@ -20,4 +20,5 @@ Trouble shooting :
 
 - Attention à l'arborescence et au nom du fichier boundary.
 - En cas d'erreur de byte non reconnu, recherchez dans la topo concernée s'il y a des caractères spéciaux é, è, à, ù, ... qui peuvent dans certains cas etre problématiques.
+- Vérifier que les str soient au format str.
 
